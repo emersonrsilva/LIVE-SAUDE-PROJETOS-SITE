@@ -1,0 +1,245 @@
+#lp{
+    .bg-card{
+        position: absolute;
+        left: calc(50% - 327.5px);
+        top: calc(50% - 295px );
+        animation-delay: 0.2s;
+    }
+    .card-midle{
+        position: absolute;
+        left: calc(50% - 246px);
+        top: calc(50% - 82px );
+        animation-delay: 0.2s;
+    }
+    .lp-left,
+    .lp-right{
+        width: 50%;
+        float: left;
+        height: calc(100vh - 32px);
+        min-height: 907px;
+        animation-delay: 0.7s;
+    }
+    .bg-essencial{
+        background: url('../../images/lp/essencial/bg-essencial.jpg');
+        background-size: cover;
+        height: calc(100vh - 32px);
+    }
+    .bg-premium{
+        background: url('../../images/lp/premium/bg-premium.jpg');
+        height: calc(100vh - 32px);
+    }
+    .lp-left{
+        .container{
+            animation-delay: 0.7s;
+            z-index: 5;
+        }
+        text-align: center;
+        img{
+            margin-top: 80px;
+            margin-bottom: 70px;
+        }
+        .logo-premium{
+            margin-top: 60px;
+            margin-bottom: 50px;
+        }
+        .logo-luve-s{
+            margin-top: 90px;
+            margin-bottom: 0;
+        }
+        h2{
+            font-weight: 300;
+            margin-bottom: 50px;
+            line-height: 35px;
+        }
+        .carousel-wid{
+            max-width: 550px ;
+            margin: 0 auto;
+            z-index: 9;
+            .box-car{
+                max-width: 340px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .box-icon{
+                    width: 215px;
+                    height: 215px;
+                    border-radius: 215px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 0 25px 0;
+                }
+                p{
+                    font-size: 24px;
+                    color: white;
+                }
+                > span{
+                    margin: 25px 0 0 0;
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+            .BrainhubCarousel__arrows{
+                background-color: transparent;
+                border: none;
+                outline: none;
+                margin: 201px 0 0 0;
+                span{
+                    transform: translate(-50%, -50%) rotate(0);
+                    border: none;
+                }
+            }
+            .BrainhubCarousel__arrowRight span{
+                background-image: url(../../images/lp/essencial/arrow-right-carousel.svg);
+                width: 18px;
+                height: 42px;
+            }
+            .BrainhubCarousel__arrowLeft span{
+                background-image: url(../../images/lp/essencial/arrow-left-carousel.svg);
+                width: 18px;
+                height: 42px;
+            }
+        }
+    }
+    .lp-right{
+        ul{
+            display:block;
+            text-align: right;
+            width: 100%;
+            padding-right: 50px;
+            margin-top: 45px;
+            display: flex;
+            align-items: normal;
+            justify-content: flex-end;
+            margin-bottom: 25px;
+            li{
+                display: inline-block;
+                margin-right: 15px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                .icon{
+                    color: #660EC3;
+                    width: 22px;
+                    height: 22px;
+                }
+                .bt-whats{
+                    border: 2px #009846 solid;
+                    color: #009846;
+                    border-radius: 30px;
+                    .icon-whats{
+                        width: 25px;
+                        height: 22px;
+                        margin-bottom: -5px;
+                    }
+                }
+                .accessar{
+                    .icon-site{
+                        margin-bottom: -3px;
+                        width: 17px;
+                    }
+                    .icon-site.icon2{
+                        margin-left: -10px;
+                    }
+                }
+                .bt{
+                    padding: 10px 25px;
+                }
+                
+            }
+        }
+        .container{
+            max-width: 539px;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            z-index: 5;
+            h2{
+                margin-top: 55px;
+            }
+            .a-partir{
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 40px;
+                max-width: 370px;
+                margin: 40px auto;
+                span{
+                    text-align: left;
+                }
+            }
+            .voce-garante{
+                display: block;
+                margin-bottom: 35px;
+            }
+            .muito-mais{
+                display: block;
+                margin-bottom: 15px;
+            }
+            .orientacao{
+                margin-bottom: 50px;
+                display: block;
+            }
+            form{
+                p{
+                    margin-bottom: 23px;
+                }
+                label{
+                    width: 50%;
+                    display: inline-block;
+                    input{
+                        color: #68646C;
+                        font-size: 16px;
+                        padding: 8px 0 8px 18px;
+                        border: 1px solid #C5CED7;
+                        border-radius: 9px;
+                        outline-color: #00BECA;
+                    }
+                }
+                button{
+                    border: none;
+                    display: flex;
+                    margin: 22px auto 25px auto;
+                    align-items: center;
+                    justify-content: center;
+                    outline: none;
+                    cursor: pointer;
+                    .icon1{
+                        margin-bottom: -2px;
+                        margin-left: 5px;
+                    }
+                    .icon2{
+                        margin-bottom: -2px;
+                        margin-left: -10px;
+                    }
+                }
+            }
+            .link-footer{
+                text-decoration: underline;
+            }
+        }
+    }
+    #footer-lp{
+        padding: 4px 50px;
+        background: #F5F5F5;
+        color: #68646C;
+        float: left;
+        width: 100%;
+        p{
+            width: 50%;
+            float: left;
+            text-align: left;
+            color: #68646C;
+        }
+        span{
+            float: left;
+            width: 50%;
+            text-align: right;
+            color: #68646C;
+            a{
+                font-weight: 700;
+            }
+        }
+    }
+}

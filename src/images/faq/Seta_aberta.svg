@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #660ec3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Polígono_1" data-name="Polígono 1" class="cls-1" d="M5.5,10L0,0H11Z"/>
+</svg>

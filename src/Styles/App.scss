@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import './Mixin.scss';
+@import './hamburguer-menu.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+p{
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    overflow-x: hidden;
+}
+input, button, textarea{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.desk-none{
+    display: none !important;
+}
+.mb-none{
+    display: block;
+}
+.clear{
+    clear: both;
+}
+.content{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1410px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bt{
+    padding: 15px 25px;
+    line-height: 0;
+    border-radius: 13px;
+    .icon{
+        display: inline-block;
+        vertical-align: -2px;
+        
+    }
+}
+.bt:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+#header{
+    height: 106px;
+    overflow: hidden;
+    > div{
+        height: 100%;
+    }
+    .row {
+        height: 100%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        a{
+            font-size: 13px;
+        }
+        a:hover{
+            color:#fff;
+        }
+    }
+    .redes{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 25px;
+        img{
+            height: 22px;
+            margin-right: 13px;
+        }
+        &::after{
+            content: "";
+            width: 2000px;
+            height: 100%;
+            background-color: $color_green;
+            position: absolute;
+            left: 100%;
+        }
+    }
+
+}
+
+/* FOOTER */
+#Maisinfos{
+    padding: 65px 0;
+    p{
+        margin-bottom: 30px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        a{
+            padding: 17px 34px;
+            margin: 0 15px;
+        }
+    }
+}
+#footer-beneficios{
+    background-image: url(../images/contato/fundo_faixa_ctas.png);
+    width: 100%;
+    background-position: center;
+    padding: 65px 0;
+    p{
+        margin-bottom: 30px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        a{
+            padding: 17px 34px;
+            margin: 0 15px;
+        }
+    }
+}
+
+#planos {
+    margin: 100px 0;
+    padding: 0 140px;
+
+    .plans{
+        .box-plans:nth-child(1){
+            .topo{
+                background-color: #00beca;
+            }
+            .footer{
+                a{
+                    background-color: #00beca ;
+                }
+            }
+        }
+        .box-plans:nth-child(2){
+            .topo{
+                background-color: #660ec3;
+            }
+            .footer{
+                a{
+                    background-color: #660ec3;
+                }
+            }
+        }
+        .box-plans:nth-child(3){
+            .topo{
+                background-color: #530075;
+            }
+            .footer{
+                a{
+                    background-color: #530075;
+                }
+            }
+        }
+    }
+
+    .obs-planos {
+        position: absolute;
+        right: 0;
+        bottom: -85px;
+    }
+
+    .title {
+        margin-bottom: 65px;
+    }
+
+    .box {
+        box-shadow: 0 0 16px 3px #e7e7e7;
+        border-radius: 10px; 
+
+        .topo {
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            height: 110px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+            align-items: center;
+            p{
+                margin-bottom: 30px;
+                position: relative;
+                &::before{
+                    content: "";
+                    background: url('../images/home/arrow-planos.png');
+                    width: 88px;
+                    height: 27px;
+                    position: absolute;
+                    left: 35px;
+                    top: 45px;
+                }
+                span{
+                    font-weight: 300;
+                    font-style: italic;
+                    font-size: 35px;
+                }
+            }
+        }
+
+        .list {
+            padding: 0 25px;
+
+            span {
+                display: flex;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 15px;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .footer {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            p {
+                margin: 20px 0 8px 0;
+            }
+
+            span.valor {
+                margin-bottom: 15px;
+            }
+
+            a {
+                margin-bottom: 55px;
+                padding: 25px 55px;
+            }
+        }
+    }
+}
+
+#footer{
+    #footer-1{
+        padding: 55px 0;
+        .row > div{
+            display: flex;
+            align-items: center;
+        }
+        .uls-menus{
+            width: 100%;
+            ul{
+                width: 33%;
+                float: left;
+            }
+        }
+        ul{
+            li{
+                margin-bottom: 15px;
+                a{
+                    color: #fff;
+                    img{
+                        width: 22px;
+                        margin-right: 8px;
+                    }
+                }    
+                &:last-child{
+                    margin-bottom: 0;
+                }        
+            }
+            &.redes:after{
+                content: "";
+                width: 1px ;
+                height: 110px;
+                background: #fff;
+                position: absolute;
+                right: 55px;
+                top: -8px;
+            }
+        }
+    }
+    #footer-2{
+        background-color: #0090a1;
+        height: 30px;
+        >div{
+            height: 100%;
+            .row{
+                height: 100%;
+            }
+        }
+        p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .prod{
+            float: right;
+            a{
+                margin-left: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,169 @@
+#contato{
+    background: #fbf6ff;
+    padding: 50px 25px;
+    #box-form{
+        background: #fff;
+        box-shadow: 0 0 10px 4px #dad5dd;
+        padding: 30px 50px;
+        border-radius: 10px;
+        .boxes{
+            margin-bottom: 45px;
+            margin-top: 45px;
+            .box{
+                padding: 0 10px;
+                height: 125px;
+            }
+            .borders{
+                border-right: 1px solid #d3d3d3;
+                border-left: 1px solid #d3d3d3;
+            }
+        }
+        .bxs-bottom{
+            margin-bottom: 15px;
+            .box{
+                display: flex;
+                align-items: center;
+                align-content: center;
+                flex-direction: column;
+                p{
+                    margin-bottom: 12px;
+                }
+            }
+        }
+        hr{
+            margin: 65px 0 15px 0;
+        }
+        form{
+            margin-top: 20px;
+            label{
+                margin-bottom: 21px;
+                span{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                input,
+                select{
+                    display: block;
+                    width: 100%;
+                    border-radius: 8px;
+                    padding: 8px 10px;
+                    color:  #660ec3;
+                }
+            }
+            button{
+                margin: 0px auto 0 auto;
+                border: none;
+                border-radius: 8px;
+                padding: 18px 80px;
+            }
+            .ft-span{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+        }
+    }
+    .box-check-final{
+        padding: 45px 50px !important;
+        .ck-st4{
+            padding:0 5%;
+            margin-top: 60px;
+            .box-form{
+                background: #fff;
+                box-shadow: 0 0 10px 4px #dad5dd;
+                padding: 30px 22px;
+                border-radius: 10px;
+                & > p{
+                    margin-bottom: 30px;
+                }
+                span{
+                    margin-bottom: 8px;
+                    display: block;
+                }
+            }
+        }
+        .box-1{
+            margin-bottom: 5%;
+            display: block;
+        }
+        .user-data{
+            position: relative;
+            span.name{
+                display: block;
+                margin-bottom: 20px !important;
+            }
+            span.info{
+                margin-bottom: 10px;
+            }
+            a{
+                display: block;
+                margin-bottom: 15px;
+            }
+            a.bt{
+                text-align: center;
+                border-radius: 8px;
+                display: block;
+                width: 100%;
+                margin-top: 76px;
+                margin-bottom: 0;
+                padding: 18px 25px;
+            }
+        }
+        .bottom{
+            span{
+                margin-top: 50px;
+                display: block;
+                margin-bottom: 30px;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    #contato{
+        .borders {
+            border-right:none !important;
+            border-left: none !important;
+        }
+        margin-top: 100px;
+        padding: 50px 0;
+        .icon-rede{
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .icon-rede:last-child{
+            margin-right: 0;
+        }
+        #box-form{
+            padding: 30px 26px;
+            .boxes{
+                .box {
+                    height: auto;
+                    margin-bottom: 15px;
+                }
+            }
+            form{
+                label{
+                    input,
+                    select{
+                        padding: 15px 0 15px 10px;
+                        font-size: 22px;
+                        font-weight: 500;
+                    }
+                }
+                button {
+                    margin: 27px auto 0 auto;
+                    border: none;
+                    border-radius: 8px;
+                    padding: 30px 97px;
+                }
+            }
+           
+        } 
+    }
+}

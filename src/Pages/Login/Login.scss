@@ -1,0 +1,191 @@
+#Login{
+    background: #fbf6ff;
+    padding: 50px 65px;
+    background: #fbf6ff;
+    height: calc(100vh - 350px);
+    display: flex;
+    align-items: center;
+    #box-login{
+        background: #fff;
+        box-shadow: 0 0 10px 4px #dad5dd;
+        padding: 30px 50px;
+        border-radius: 10px;
+        width: 500px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        form{
+            margin-top: 40px;
+            .pass-camp{
+                padding: 0 15%;
+            }
+            label{
+                margin-bottom: 21px;
+                span{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                input,
+                select{
+                    display: block;
+                    width: 100%;
+                    border-radius: 8px;
+                    padding: 8px 10px;
+                    color:  #660ec3;
+                }
+            }
+            .bt{
+                margin: 28px auto 0 auto;
+                border: none;
+                border-radius: 8px;
+                padding: 18px 80px;
+            }
+        }
+    }
+    .box-check-final{
+        padding: 45px 50px !important;
+        .ck-st4{
+            padding:0 5%;
+            margin-top: 60px;
+            .box-form{
+                background: #fff;
+                box-shadow: 0 0 10px 4px #dad5dd;
+                padding: 30px 22px;
+                border-radius: 10px;
+                & > p{
+                    margin-bottom: 30px;
+                }
+                span{
+                    margin-bottom: 8px;
+                    display: block;
+                }
+            }
+        }
+        .box-1{
+            margin-bottom: 5%;
+            display: block;
+        }
+        .user-data{
+            position: relative;
+            span.name{
+                display: block;
+                margin-bottom: 20px !important;
+            }
+            span.info{
+                margin-bottom: 10px;
+            }
+            a{
+                display: block;
+                margin-bottom: 15px;
+            }
+            a.bt{
+                text-align: center;
+                border-radius: 8px;
+                display: block;
+                width: 100%;
+                margin-top: 76px;
+                margin-bottom: 0;
+                padding: 18px 25px;
+            }
+        }
+        .bottom{
+            span{
+                margin-top: 50px;
+                display: block;
+                margin-bottom: 30px;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 750px){
+    #checkout{
+        padding: 50px 0;
+        margin-top: 100px;
+        #sidebar{
+            height: auto;
+            margin-bottom: 65px;
+            ul{
+                li{
+                    line-height: 34px;
+                    img {
+                        margin-right: 10px;
+                        width: 25px !important;
+                        max-width: 25px !important;
+                        min-width: 25px !important;
+                    }
+                }
+            }
+            .bt{
+                padding: 35px 0 !important;
+            }
+            .escolha{
+                .icon{
+                    top: 21px !important;
+                }
+            }
+        }
+        #box-form{
+            height: auto;
+            padding: 30px 20px !important;
+            .steps{
+                span.st-pass{
+                    line-height: 32px; 
+                    width: 40px;
+                    height: 40px;
+                }
+                span.st-pass.active{
+                    line-height: 40px;
+                }
+            } 
+            .pass-camp{
+               padding: 0 !important;
+               margin-left: 0;
+            }
+            form{
+                input,
+                select{
+                    padding: 15px 0 15px 10px !important;
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+                .bt{
+                    padding: 30px 105px !important;
+                }
+            }
+            .space-box-mb{
+                margin-bottom: 25px;
+            }
+        }
+        .box-check-final{
+            .ck-st4 {
+                padding: 0;
+                width: 100%;
+                margin-top: 60px;
+                margin: 53px 0 0 0;
+            }
+            .box-form{
+                width: 100%;
+            }
+            a.bt{
+                padding: 32px 25px !important;
+            }
+            .bottom{
+                span{
+                    a{
+                        font-size: 27px;
+                    }
+                }
+                a.bt{
+                    font-size: 25px;
+                    margin: 35px 0 25px 0;
+                    display: block;
+                }
+            }
+        } 
+    }
+}

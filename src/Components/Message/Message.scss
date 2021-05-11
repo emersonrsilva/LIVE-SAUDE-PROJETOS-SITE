@@ -1,0 +1,33 @@
+@import '../../Styles/Mixin.scss';
+
+.messageContainer{
+    z-index: 99999999;
+    &.messageOverlay{
+        background: rgba(0,0,0,.75)!important;
+    }
+    .messagePopup{
+        background-color: #F2F2F4;
+        border-radius: 20px;
+        box-shadow: 0px 7px 6px #00000029;
+        &.messageLogo{
+            &:before{
+                content: "";
+                width: 100px;
+                height: 100px;
+                margin: 30px auto;
+                background: url('../../images/home/Logo_live_menu_superior.svg') no-repeat center;
+                background-size: cover;
+            }
+
+        }
+        .messageTitle{
+            font-size: 120%;
+            line-height: 140%;
+            font-weight: 600;
+        }
+        .btn{
+            border-radius: 25px;
+            background-color: #F15B5D;
+        }
+    }
+}

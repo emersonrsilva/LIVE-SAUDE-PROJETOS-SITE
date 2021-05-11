@@ -1,0 +1,23 @@
+input[type='checkbox'],
+input[type='radio']{
+    width: auto!important;
+    height: auto!important;
+}
+.inputRadio{
+    label{
+        input{
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    }
+}
+.form-control{
+    font-size: unset!important;
+}
+.ck-label{
+    display: none!important;
+}
+.ck-content{
+    min-height: 120px;
+}
