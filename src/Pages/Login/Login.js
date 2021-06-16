@@ -42,9 +42,9 @@ export default function Login() {
 
     function changeInputMult(e)
     {
-        var meusdados = camposFormulario
-        meusdados[e.target.name] = e.target.value
-        setCamposFormularios({...meusdados})
+        var meusdados = camposFormulario;
+        meusdados[e.target.name] = e.target.value;
+        setCamposFormularios({...meusdados});
     }
 
     return (

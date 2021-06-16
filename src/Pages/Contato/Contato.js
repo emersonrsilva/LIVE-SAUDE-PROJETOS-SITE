@@ -32,17 +32,17 @@ export default function Contato() {
 
         setstepLoad(true)
 
-             var response =  await api.post('/contatos', data)
+         var response =  await api.post('/contatos', data)
 
-            if  ( response.data.error == true){
-                alert( response.data.message )
-            }  else {
-                swal("Enviado com sucesso!");
-            }
+        if  ( response.data.error == true){
+            alert( response.data.message )
+        }  else {
+            swal("Enviado com sucesso!");
+        }
 
-            setTimeout(function(){
-                setstepLoad(false)
-            })
+        setTimeout(function(){
+            setstepLoad(false)
+        })
 
         
 

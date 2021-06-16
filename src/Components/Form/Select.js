@@ -10,7 +10,8 @@ export function Select(props){
         setInput(
             <Form.Control as='select'
                 onChange={props.onChange} 
-                placeholder={props.placeholder} 
+                placeholder={props.placeholder}
+                className={'border-purple'}
                 name={props.name}
                 value={props.value}>
                 {props.options.map((e, i) => <option key={i} value={e[0]}>{e[1]}</option>)}

@@ -17,8 +17,9 @@ import Premium from './Pages/Lp/premium';
 import Login from './Pages/Login/Login';
 import MinhaConta from './Pages/MinhaConta/MinhaConta';
 import MinhaContaDadosPessoais from './Pages/MinhaConta/DadosPessoais';
-import LoginEsqueciSenha from './Pages/Login/EsqueciSenha'
-import LoginMudarSenha from './Pages/Login/MudarSenha'
+import Contratacao from './Pages/Contratacao/Contratacao';
+import LoginEsqueciSenha from './Pages/Login/EsqueciSenha';
+import LoginMudarSenha from './Pages/Login/MudarSenha';
 
 
 export default function Routes(){
@@ -52,6 +53,8 @@ export default function Routes(){
                     <Route path="/" exact component={Index} />
                     <Route path="/faq" exact component={Faq} />
                     <Route path="/consulta" exact component={Consulta} />
+                    <Route path="/contratacao" exact component={Contratacao} />
+                    <Route path="/contratacao/:id" exact component={Contratacao} />
                     <Route path="/checkout" exact component={Checkout} />
                     <Route path="/checkout/passo-2/:id" exact component={Checkout2} />
                     <Route path="/checkout/passo-3" exact component={Checkout3} />
