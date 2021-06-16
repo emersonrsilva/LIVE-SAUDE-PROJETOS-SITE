@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f53aa57f-992c-4d60-8abe-db84818eda54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login/EsqueciSenha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login/MudarSenha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/MinhaConta/DadosPessoais.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Checkout/Checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Checkout/Checkout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Checkout/Step1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Checkout/Step1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Contato/Contato.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Contato/Contato.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/MinhaConta/MinhaConta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/MinhaConta/MinhaConta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Api/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="634" column="47" selection-start-line="634" selection-start-column="47" selection-end-line="634" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/Components/Layout/Footer.js" />
         <option value="$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.scss" />
         <option value="$PROJECT_DIR$/src/Pages/Contratacao/Contratacao.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -112,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,16 +280,18 @@
       <workItem from="1623073666048" duration="17667000" />
       <workItem from="1623119899697" duration="1907000" />
       <workItem from="1623154817274" duration="772000" />
+      <workItem from="1623881733985" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130005000" />
+    <option name="totallyTimeSpent" value="130111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18044515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18163753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -325,7 +310,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="Terminal" order="4" visible="true" weight="0.25675675" />
+      <window_info anchor="right" id="Terminal" order="4" visible="true" weight="0.25675675" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/Contato/Contato.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -575,6 +553,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Api/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
