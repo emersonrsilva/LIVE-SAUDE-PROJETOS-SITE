@@ -4,7 +4,7 @@
 }
 #checkout{
     background: #fbf6ff;
-    padding: 50px 65px;
+    padding: 20px 65px;
     #sidebar{
         background: #fff;
         box-shadow: 0 0 10px 4px #dad5dd;
@@ -32,7 +32,7 @@
             }
         }
         .escolha:hover{
-            color: #660ec3;
+            color: #0e38c3;
         }
         .vc-escolheu{
             display: block;
@@ -87,14 +87,14 @@
     #box-form{
         background: #fff;
         box-shadow: 0 0 10px 4px #dad5dd;
-        padding: 30px 50px;
+        padding: 5px 50px;
         min-height: 750px;
         height: auto !important;
         border-radius: 10px;
         display: none;
         .steps{
             margin-top: 25px;
-            margin-bottom: 40px;
+            margin-bottom: 5px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -103,12 +103,12 @@
                 width: 30px;
                 height: 30px;
                 display: inline-block;
-                color: #660ec3;
+                color: #0e38c3;
             }
             .dashed-bar{
                 width: 40px;
                 height: 2px;
-                background: #660ec3;
+                background: #0e38c3;
                 display: inline-block;
                 margin: 0 5px;
             }
@@ -120,7 +120,7 @@
             }
         }
         form{
-            margin-top: 40px;
+            margin-top: 10px;
             .pass-camp{
                 padding: 0 15%;
             }
@@ -137,7 +137,7 @@
                     width: 100%;
                     border-radius: 8px;
                     padding: 8px 10px;
-                    color:  #660ec3;
+                    color:  #0e38c3;
                 }
             }
             .bt{

@@ -8,7 +8,7 @@ import Cards from 'react-credit-cards';
 import NumberFormat from 'react-number-format';
 import {Select}  from '../../Components/Form';
 import swal from 'sweetalert';
-import { api } from '../../Api/app'
+import { api ,gcloud} from '../../Api/app'
 
 import BulletMais from "../../images/home/bullet_mais.svg";
 import 'react-credit-cards/lib/styles.scss'
@@ -71,7 +71,7 @@ export default function Contratacao(props) {
         passo:"",
         email:"",
         dataNascimento:"",
-        nome:"",
+        nome:"asdf",
         origem:"SITE",
         rg:"",
         telefone:"",
@@ -154,7 +154,7 @@ export default function Contratacao(props) {
     }
 
     async function getPlanos(){
-        const result = await api.get('/planos/get/site');
+        const result = await gcloud.get('/planos?cat=SAUDE');
 
         setPlanos(result.data);
         setPlanoSelecionado(result.data[0]);
@@ -386,7 +386,7 @@ export default function Contratacao(props) {
 
                                 <form className="row" method="post" onSubmit={sendStep1}>
                                     <label className="col-lg-8 col-md-12">
-                                        <span className="cl-purple font-16">Seu nome completo*</span>
+                                        <span className="cl-purple font-16">Seu nome completo**</span>
                                         <input className="border-purple" required type="text" value={dadosPessoais.nome} onChange={(e) => changeInputMult(e)} name="nome" placeholder="" />
                                     </label>
 

@@ -1,4 +1,4 @@
-$color_purple: #660ec3;
+$color_purple: #0f0097;
 $color_green: #00beca;
 /* FONTS */
 .font-10{
@@ -78,12 +78,15 @@ $color_green: #00beca;
     color: #68646c;
 }
 
+.cl-sp{
+    color: #0f0097;
+}
 /* BGS */
 .bg-purple{
     background-color: $color_purple;
 }
 .bg-purple-2{
-    background-color: #530075;
+    background-color: #150063;
 }
 .bg-green{
     background-color: $color_green;

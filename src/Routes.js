@@ -49,33 +49,43 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Layout>
-                    <Route path="/" exact component={Index} />
-                    <Route path="/faq" exact component={Faq} />
-                    <Route path="/consulta" exact component={Consulta} />
-                    <Route path="/contratacao" exact component={Contratacao} />
-                    <Route path="/contratacao/:id" exact component={Contratacao} />
-                    <Route path="/checkout" exact component={Checkout} />
-                    <Route path="/checkout/passo-2/:id" exact component={Checkout2} />
-                    <Route path="/checkout/passo-3" exact component={Checkout3} />
-                    <Route path="/checkout/passo-4" exact component={Checkout4} />
-                    <Route path="/contato" exact component={Contato} />
-                    <Route path="/login" exact component={Login} />
-                    <Route path="/login/esqueci-senha" exact component={LoginEsqueciSenha} />
-                    <Route path="/login/mudar-senha" exact component={LoginMudarSenha} />
-                    <Route path="/beneficios" exact component={Beneficios} />
-                    <Route path="/lp/essencial" exact component={Essencial} />
-                    <Route path="/lp/premium" exact component={Premium} />
+                <Route exact path="/checkout" >
+                        <Route path="/checkout" exact component={Checkout} />
+                        <Route path="/checkout/passo-2/:id" exact component={Checkout2} />
+                        <Route path="/checkout/passo-3" exact component={Checkout3} />
+                        <Route path="/checkout/passo-4" exact component={Checkout4} />
+                </Route>
+                <Route path="/" >
+                    
+                    <Layout>
+                        <Route path="/" exact component={Index} />
+                        <Route path="/faq" exact component={Faq} />
+                        <Route path="/consulta" exact component={Consulta} />
+                        <Route path="/contratacao" exact component={Contratacao} />
+                        <Route path="/contratacao/:id" exact component={Contratacao} />
+                        <Route path="/contato" exact component={Contato} />
+                        <Route path="/login" exact component={Login} />
+                        <Route path="/login/esqueci-senha" exact component={LoginEsqueciSenha} />
+                        <Route path="/login/mudar-senha" exact component={LoginMudarSenha} />
+                        <Route path="/beneficios" exact component={Beneficios} />
+                        <Route path="/lp/essencial" exact component={Essencial} />
+                        <Route path="/lp/premium" exact component={Premium} />
 
-                    <PrivateRoute path="/minha-conta" exact>
-                        <Route  component={MinhaConta} />
-                    </PrivateRoute>
+                        <PrivateRoute path="/minha-conta" exact>
+                            <Route  component={MinhaConta} />
+                        </PrivateRoute>
 
-                    <PrivateRoute path="/minha-conta/dados-pessoais" exact>
-                        <Route  component={MinhaContaDadosPessoais} />
-                    </PrivateRoute>
+                        <PrivateRoute path="/minha-conta/dados-pessoais" exact>
+                            <Route  component={MinhaContaDadosPessoais} />
+                        </PrivateRoute>                    
+                    </Layout>
+                </Route>
+                
 
-                </Layout>
+                {/* <Layout>
+
+
+                </Layout> */}
                 
             </Switch>
         </BrowserRouter>

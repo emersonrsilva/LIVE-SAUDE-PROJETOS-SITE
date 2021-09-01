@@ -1,6 +1,9 @@
+#boleto {
+    position: relative;width: 100%;height: 500px;border: 0px;
+}
 #checkout{
-    background: #fbf6ff;
-    padding: 50px 65px;
+    background: #ffffff;
+    padding: 10px 65px;
     #sidebar{
         background: #fff;
         box-shadow: 0 0 10px 4px #dad5dd;
@@ -28,7 +31,7 @@
             }
         }
         .escolha:hover{
-            color: #660ec3;
+            color: #0f0044;
         }
         .vc-escolheu{
             display: block;
@@ -99,12 +102,12 @@
                 width: 30px;
                 height: 30px;
                 display: inline-block;
-                color: #660ec3;
+                color: #110ec3;
             }
             .dashed-bar{
                 width: 40px;
                 height: 2px;
-                background: #660ec3;
+                background: #110ec3;
                 display: inline-block;
                 margin: 0 5px;
             }
@@ -133,7 +136,7 @@
                     width: 100%;
                     border-radius: 8px;
                     padding: 8px 10px;
-                    color:  #660ec3;
+                    color:  #2f0ec3;
                 }
             }
             .bt{

@@ -39,13 +39,14 @@ export default function MinhaConta(props) {
 
                 setDadosPessoais(responseDadosPessoais.data[0]);
                 setDadosEndereco(responseDadosPessoais.data[0].cadastrosEnderecos[0])
-                setDadosAssinatura(responseDadosPessoais.data[0].Assinaturas[0])
+                setDadosAssinatura(responseDadosPessoais.data[0].Assinaturas[0]||{})
                 getPlanos(responseDadosPessoais.data[0].Assinaturas[0].planoId)
 
             }
 
         } catch(err){
-            swal("ops!",err.replace('Error:',''),"error");
+            console.log(err)
+            swal("ops!",err,"error");
         }
     }
 
